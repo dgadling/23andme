@@ -21,6 +21,7 @@ for input_path in sys.argv[1:]:
     print " Total occurences of 'GATTACA' = %d" % as_str.count('GATTACA')
     print " Kitty score (# of 'CAT's)     = %d" % as_str.count('CAT')
     print " Who's it? (# of 'TAG's)       = %d" % as_str.count('TAG')
+    print " GATT compliance               = %d" % as_str.count('GATT')
     print
     g_count = sum(1 for c in as_str if c == 'G')
     a_count = sum(1 for c in as_str if c == 'A')
