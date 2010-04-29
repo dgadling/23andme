@@ -1,0 +1,4 @@
+This is a silly Python app that'll let you compete with your friends: VIA DNA!
+
+It reads in a file from 23andme.com and spits out various irrelevant stats that
+you can use to measure yourself.
