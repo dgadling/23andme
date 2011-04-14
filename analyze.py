@@ -28,6 +28,7 @@ for input_path in sys.argv[1:]:
     print " Perverts (# of 'TATA's)        = %d" % as_str.count('TATA')
     print " Gross ones (# of 'GAG's)       = %d" % as_str.count('GAG')
     print " Original Gangsta (# of 'GAT's) = %d" % as_str.count('GAT')
+    print " Appropriateness (# of 'TACT's) = %d" % as_str.count('TACT')
     print
     g_count = sum(1 for c in as_str if c == 'G')
     a_count = sum(1 for c in as_str if c == 'A')
